@@ -14,8 +14,8 @@ export default function Home() {
         </div>
         
         <div className={styles.navigation}>
-          <Link href="/projects">Projects</Link>
-          <Link href="/info">Info</Link>
+          <Link href="/projects">&#xd7; Projects</Link>
+          <Link href="/info">&#x2709; Info</Link>
         </div>
       </div>
     </>
