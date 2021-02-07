@@ -20,7 +20,7 @@ export default function(){
                 <div>
                     <h1 className={styles.title}>Stack</h1>
                     <h3>Front End</h3>
-                    <p>HTML, CSS, JSS, Javascript, JQuery, React, Next Js</p>
+                    <p>Html, CSS, Javascript, JQuery, Bootstrap, React, Next Js</p>
                     <h3>Back End</h3>
                     <p>Node Js, Express, Mongo DB, MySQL, C#, .NET MVC</p>
                     <h3>Tools</h3>
