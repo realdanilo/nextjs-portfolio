@@ -16,7 +16,7 @@ export default function Projects(){
                             <PreviewProject key={x.id} title={x.name} image={x.image} link={x.id}/>
                     ))}
                 </div>
-
+                <Link href="/">Home</Link>
             </div>
         </>
     )

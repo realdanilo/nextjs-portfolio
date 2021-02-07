@@ -1,6 +1,15 @@
 .main {
   padding: 3rem;
 }
+.main a {
+  background-color: black;
+  color: white;
+  display: block;
+  margin: 20px;
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 23px;
+}
 .container {
   display: grid;
   row-gap: 50px;

@@ -1,10 +1,13 @@
 import projects from "../../utils/data"
 import styles from "../../styles/Project.module.css"
 import Link from "next/link"
+import SEO from "../../components/SEO"
+
 export default function Project({test, project}){
     let { github, description, id, image, main, name,stack, url} = project
     return(
         <>
+            <SEO title={`#${id} ${name} - Danilo`} />
             <div className={styles.main}>
                 <h1>{name}</h1>
                 <p>{description}</p>
