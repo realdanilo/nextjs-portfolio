@@ -7,7 +7,7 @@ const SEO = ({title ,content}) => {
             <title>{title}</title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <meta name="description" content={content} />
-            <link rel="canonical" href="https://realdanilo.github.io/" />
+            <link rel="canonical" href="https://realdanilo.second.github.io/" />
             <meta name="keywords" content="developer, web developer, javascript, csharp, reactjs, redux, MVC, programming" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={content}/>
