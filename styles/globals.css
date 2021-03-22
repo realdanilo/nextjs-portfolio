@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;700&family=Roboto:wght@100;200;300&display=swap");
 
+* {
+  box-sizing: border-box;
+  position: relative;
+}
 html,
 body {
   padding: 0;
@@ -15,11 +19,6 @@ body {
 a {
   color: black;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-  position: relative;
 }
 
 img {

@@ -3,18 +3,18 @@
 let projects = [
     {
         id: 6,
-        image: "/images/movie.jpg",
+        image: "/images/movie.png",
         name: "Movie Search",
-        url: "https://danilomera-movie.netlify.app",
-        github: "https://github.com/realdanilo/movie",
-        description: "Use external API movie databse to find movies by name and id. You can save you favorite movies by giving them a like. Also some movies have a video and you can click to watch it",
-        stack: ["Rect", "Hooks", "React router", "API", "Slick module"],
-        main: ["useState", "Local Storage", "Pagination", "APIs", "Youtube"]
+        url: "https://danilomera-movie.vercel.app/",
+        github: "https://github.com/realdanilo/nextjs-movie",
+        description: "Use external API movie databse to find movies by name and id; built with NextJS and modular CSS. SEO performance and UI friendly",
+        stack: ["Rect", "Hooks", "NextJS", "API", "Modular CSS"],
+        main: ["useState", "Local Storage", "Pagination", "APIs", "SEO"]
         
     },
     {
         id: 7,
-        image: "/images/resort.JPG",
+        image: "/images/resort.png",
         name: "Hotel",
         url: "https://danilomera-hotel.netlify.app",
         github: "https://github.com/realdanilo/hotel",
@@ -24,7 +24,7 @@ let projects = [
     },
     {
         id:9,
-        image:"/images/blog.JPG",
+        image:"/images/blog.png",
         name:"Blog",
         url:"https://danilomera-blog.herokuapp.com/blog",
         github:"",
@@ -35,7 +35,7 @@ let projects = [
     },
     {
         id:8,
-        image: "/images/concert.JPG",
+        image: "/images/concert.png",
         name:"Concert",
         url:"https://danilomera-concert.netlify.app",
         github:"",
