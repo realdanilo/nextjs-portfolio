@@ -94,6 +94,17 @@ let projects = [
         stack: ["React", "Material UI", "NPM modules"],
         main: ["OOP", "Routing", "Optimization/Memoization", "Life Cycle", "withStyles"]
     },
+    {
+        id:10,
+        image:"/images/markdown.png",
+        name:"#Markdown App",
+        url:"https://danilomera-markdown.netlify.app/",
+        github:"https://github.com/realdanilo/markdown-react",
+        description:"Quick react application to learn markdown",
+        stack:["React", "Third Party Libraries"],
+        main:["Hooks","Markdown"]
+
+    }
     
 ]
 export default projects
