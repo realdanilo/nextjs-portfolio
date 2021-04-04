@@ -1,5 +1,7 @@
 .main {
   padding: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .main a {
   background-color: black;

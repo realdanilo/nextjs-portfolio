@@ -8,7 +8,7 @@ const SEO = ({title ,content}) => {
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <meta name="description" content={content} />
             <link rel="canonical" href="https://realdanilo.second.github.io/" />
-            <meta name="keywords" content="developer, web developer, javascript, csharp, reactjs, redux, MVC, programming" />
+            <meta name="keywords" content="sofware developer, web developer, javascript, csharp, reactjs, redux, MVC, programming, nextjs, html, css" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={content}/>
             <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"/>
@@ -21,6 +21,6 @@ const SEO = ({title ,content}) => {
 }
 SEO.defaultProps = {
     title: "Danilo's porfolio - React developer",
-    content:"Javascript and Csharp developer with a focus on React JS. MERN stack. ASP NET MVC. Phoenix - Arizona"
+    content:"Javascript and Csharp developer with a focus on React JS and Redux. MERN stack. ASP NET MVC. Phoenix - Arizona"
 }
 export default SEO
