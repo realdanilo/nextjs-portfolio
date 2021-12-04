@@ -8,14 +8,14 @@ export default function Home() {
       <SEO/>
       <div className={styles.container}>
         <div className={styles.main}>
-          <h1>Hey, </h1>
-          <h1>This is</h1>
+          <h1>Front-End</h1>
+          <h1>Dev</h1>
           <h1 className={styles.yellow}>Danilo</h1>
         </div>
         
         <div className={styles.navigation}>
-          <Link  href="/projects">&#xd7; Projects</Link>
-          <Link  href="/info">&#x2709; Info</Link>
+          <Link  href="/projects">&#10003; Projects</Link>
+          <Link  href="/info">&#x263A; Info</Link>
         </div>
       </div>
     </>

@@ -1,11 +1,11 @@
 .container {
   display: grid;
   padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  row-gap: 50px;
 }
 
-.container > div {
-  min-height: 300px;
-}
 .container a {
   padding: 10px 20px;
   background-color: white;
@@ -31,12 +31,26 @@
 .title {
   color: #ffe221;
 }
-
+.back{
+  display: block;
+  margin:0 auto;
+  max-width: 1200px;
+  text-align: center;
+  cursor: pointer;
+}
+.back small {
+  background-color: black;
+  color: white;
+  display: block;
+  margin: 20px;
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 23px;
+}
 @media only screen and (min-width: 700px) {
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
-    padding: 5rem;
   }
 }
