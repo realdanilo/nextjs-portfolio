@@ -2,13 +2,24 @@
 
 let projects = [
     {
+        id: 10,
+        image: "/images/plumbing.png",
+        name: "E-commerce",
+        url: "https://plumbing-products.vercel.app/",
+        github: "https://github.com/realdanilo/plumbing_products",
+        description: "VMTS internal website developed to look up product by SKU or description. Adapted to mock an ecommerce website.",
+        stack: ["React", "Hooks", "NextJS", "MongoDb"],
+        main: ["useContext", "Ecommerce", "Mobile", "SEO", "Modular Component"]
+        
+    },
+    {
         id: 6,
         image: "/images/movie.png",
         name: "Movie Search",
         url: "https://danilomera-movie.vercel.app/",
         github: "https://github.com/realdanilo/nextjs-movie",
         description: "Use external API movie databse to find movies by name and id; built with NextJS and modular CSS. SEO performance and UI friendly",
-        stack: ["Rect", "Hooks", "NextJS", "API", "Modular CSS"],
+        stack: ["React", "Hooks", "NextJS", "API", "Modular CSS"],
         main: ["useState", "Local Storage", "Pagination", "APIs", "SEO"]
         
     },
