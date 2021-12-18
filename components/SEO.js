@@ -4,11 +4,11 @@ const SEO = ({title ,content}) => {
         <>
         <Head>
             <meta name="robots" content="index, follow" />
-            <meta httpEquiv="content-type" content="text/html; charset=utf-8"/>
+            <meta charset="utf-8" /> 
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <title>{title}</title>
             <meta name="description" content={content} />
-            <link rel="canonical" href="https://realdanilo.second.github.io/" />
+            <link rel="canonical" href="https://realdanilo.second.github.io" />
             <meta name="keywords" content="web react developer, redux, MVC, nextjs, html, css" />
             <meta property="og:site_name" content="realdanilo.vercel.app" />
             <meta property="og:type" content="website" />
