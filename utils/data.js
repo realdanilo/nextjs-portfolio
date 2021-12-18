@@ -2,7 +2,7 @@
 
 let projects = [
     {
-        id: 10,
+        id: 1,
         image: "/images/plumbing.png",
         name: "E-commerce",
         url: "https://plumbing-products.vercel.app/",
@@ -13,7 +13,7 @@ let projects = [
         
     },
     {
-        id: 6,
+        id: 2,
         image: "/images/movie.png",
         name: "Movie Search",
         url: "https://danilomera-movie.vercel.app/",
@@ -24,7 +24,7 @@ let projects = [
         
     },
     {
-        id: 7,
+        id: 3,
         image: "/images/resort.png",
         name: "Hotel",
         url: "https://danilomera-hotel.netlify.app",
@@ -34,7 +34,7 @@ let projects = [
         main: ["useReducer Async", "CMS", "API"]
     },
     {
-        id:9,
+        id:4,
         image:"/images/blog.png",
         name:"Blog",
         url:"https://danilomera-blog.herokuapp.com/blog",
@@ -45,7 +45,7 @@ let projects = [
         
     },
     {
-        id:8,
+        id:5,
         image: "/images/concert.png",
         name:"Concert",
         url:"https://danilomera-concert.netlify.app",
@@ -55,7 +55,7 @@ let projects = [
         main:["mobile first","flexbox","queries"]
     },
     {
-        id: 5,
+        id: 6,
         image: "/images/roofstore.png",
         name: "Roof Store ",
         url: "https://danilomera-roofstore.netlify.app/",
@@ -65,7 +65,7 @@ let projects = [
         main: ["Mobile CSS", "Flexbox/Grid system"]
     },
     {
-        id: 3,
+        id: 7,
         image: "/images/beatles.png",
         name: "Beatles",
         url: "https://danilomera-beatles.netlify.app/",
@@ -75,7 +75,7 @@ let projects = [
         main: ["DOM manipulation", "CSS queries", "API"]
     },
     {
-        id: 1,
+        id: 8,
         image: "/images/yelpcamp.png",
         name: "Social Media",
         url: "https://danilocamp.herokuapp.com/",
@@ -86,7 +86,7 @@ let projects = [
 
     },
     {
-        id: 4,
+        id: 9,
         image: "/images/recipe.png",
         name: "Recipe App",
         url: "https://danilomera-recipe.netlify.app/",
@@ -96,7 +96,7 @@ let projects = [
         main: ["useReducer", "useContext", "customHooks", "Local Storage"]
     },
     {
-        id: 2,
+        id: 10,
         image: "/images/color.png",
         name: "Color",
         url: "https://danilomera-colorapp.netlify.app/",
@@ -106,7 +106,7 @@ let projects = [
         main: ["OOP", "Routing", "Optimization/Memoization", "Life Cycle", "withStyles"]
     },
     {
-        id:10,
+        id:11,
         image:"/images/markdown.png",
         name:"#Markdown App",
         url:"https://danilomera-markdown.netlify.app/",

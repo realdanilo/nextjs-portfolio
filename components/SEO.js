@@ -4,23 +4,27 @@ const SEO = ({title ,content}) => {
         <>
         <Head>
             <meta name="robots" content="index, follow" />
-            <title>{title}</title>
+            <meta httpEquiv="content-type" content="text/html; charset=utf-8"/>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            <title>{title}</title>
             <meta name="description" content={content} />
             <link rel="canonical" href="https://realdanilo.second.github.io/" />
-            <meta name="keywords" content="sofware developer, web developer, javascript, csharp, reactjs, redux, MVC, programming, nextjs, html, css" />
+            <meta name="keywords" content="web react developer, redux, MVC, nextjs, html, css" />
+            <meta property="og:site_name" content="realdanilo.vercel.app" />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://realdanilo.vercel.app" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={content}/>
             <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"/>
+            <meta name="apple-mobile-web-title" content={title}/>
+            <meta property="author" content="Danilo Mera"/>
             <link rel="icon" href="/favicon.ico" />
-
-
         </Head>
         </>
     )
 }
 SEO.defaultProps = {
-    title: "Danilo's porfolio - React developer",
-    content:"Javascript and Csharp developer with a focus on React JS and Redux. MERN stack. ASP NET MVC. Phoenix - Arizona"
+    title: "Danilo's porfolio | Web developer | React, Net Core specialist",
+    content:" Phoenix web developer porfolio. Javascript and Csharp developer with a focus on React JS and Redux. MERN stack. ASP NET MVC."
 }
 export default SEO
