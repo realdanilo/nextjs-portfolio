@@ -4,7 +4,7 @@ const SEO = ({title ,content}) => {
         <>
         <Head>
             <meta name="robots" content="index, follow" />
-            <meta charset="utf-8" /> 
+            <meta charSet="utf-8" /> 
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <title>{title}</title>
             <meta name="description" content={content} />
