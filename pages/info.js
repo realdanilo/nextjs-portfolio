@@ -20,7 +20,7 @@ export default function Info() {
             often use Next.js as my primary framework.
           </p>
           <br />
-          <a href="https://www.linkedin.com/in/danilomera">&#x2709; Contact</a>
+          <a href="https://www.linkedin.com/in/danilomera" target="_blank">&#x2709; Contact</a>
           <a href="https://github.com/realdanilo" target="_blank">
             &#x263C; Github
           </a>
