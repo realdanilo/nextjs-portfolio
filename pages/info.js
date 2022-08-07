@@ -10,14 +10,14 @@ export default function Info() {
         <div>
           <h1 className={styles.title}>About Me</h1>
           <p>
-            I am a business analyst at Van Marcke. I manage the pricing
-            structure and discounts for 3 different states. With VBA or python I
-            write complex formulas for business needs such as SAP import sheets
-            for specific products/pricing.
+          I found about the development since I started working as a pricing analyst and it has helped me to build excel tools to create sheeets for SAP master updates.
           </p>
           <p>
-            My main expertise is Javascript. I like working with React, and I
-            often use Next.js as my primary framework.
+            During my free time I like to learn about different technologies such as development and networking.
+            My expertise is javascript and some c#. Usually I code with React.js or ASP.Net to build applications.
+          </p>
+          <p>
+            I am Comptia Network+, Security+, AWS CCP certified.
           </p>
           <br />
           <a href="https://www.linkedin.com/in/danilomera" target="_blank">&#x2709; Contact</a>
@@ -30,7 +30,7 @@ export default function Info() {
         <div>
           <h1 className={styles.title}>Stack</h1>
           <h3>Front End</h3>
-          <p>Html, Css, Bootstrap, Javascript, Jquery, React, Redux, Next.js</p>
+          <p>Html, Css, Javascript, React</p>
           <h3>Back End</h3>
           <p>Node.js, ASP.NET , MongoDb, MySQL </p>
           <h3>Tools</h3>

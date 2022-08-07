@@ -8,7 +8,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Baloo Paaji 2", sans-serif;
   /* font-family: "Roboto", sans-serif;  */
   background-color: #1e90ff;
   color: #ffffff;

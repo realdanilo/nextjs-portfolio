@@ -9,7 +9,7 @@ const SEO = ({title ,content}) => {
             <title>{title}</title>
             <meta name="description" content={content} />
             <link rel="canonical" href="https://realdanilo.second.github.io" />
-            <meta name="keywords" content="web react developer, redux, MVC, nextjs, html, css" />
+            <meta name="keywords" content="react developer, asp.net core, nextjs, html, css" />
             <meta property="og:site_name" content="realdanilo.vercel.app" />
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://realdanilo.vercel.app" />
@@ -24,7 +24,7 @@ const SEO = ({title ,content}) => {
     )
 }
 SEO.defaultProps = {
-    title: "Danilo's porfolio | Web developer | React, Net Core specialist",
-    content:" Phoenix web developer porfolio. Javascript and Csharp developer with a focus on React JS and Redux. MERN stack. ASP NET MVC."
+    title: "Danilo's porfolio | Web developer | React.js | ASP.NET",
+    content:"Web developer porfolio. Javascript and Csharp developer with a focus on React JS, ASP NET MVC."
 }
 export default SEO

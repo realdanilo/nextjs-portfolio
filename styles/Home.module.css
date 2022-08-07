@@ -15,8 +15,8 @@
   line-height: 70px;
 }
 .main h1:nth-child(1) {
-  font-style: italic;
-  color: transparent;
+  /* font-style: italic; */
+  /* color: transparent; */
   text-transform: uppercase;
   -webkit-text-stroke: 2px white;
 }
