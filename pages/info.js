@@ -10,11 +10,11 @@ export default function Info() {
         <div>
           <h1 className={styles.title}>About Me</h1>
           <p>
-          I found about the development since I started working as a pricing analyst and it has helped me to build excel tools to create sheeets for SAP master updates.
+            Hello! 
           </p>
           <p>
             During my free time I like to learn about different technologies such as development and networking.
-            My expertise is javascript and some c#. Usually I code with React.js or ASP.Net to build applications.
+            My expertise is javascript and c#. Usually I code with React.js or ASP.Net to build applications.
           </p>
           <p>
             I am Comptia Network+, Security+, AWS CCP certified.
@@ -34,7 +34,7 @@ export default function Info() {
           <h3>Back End</h3>
           <p>Node.js, ASP.NET , MongoDb, MySQL </p>
           <h3>Tools</h3>
-          <p>Git, Bash/Linux, VS Code, Google {":)"}</p>
+          <p>Git, Bash, VS Code, Google {":)"}</p>
         </div>
       </div>
       <div className={styles.back}>

@@ -5,7 +5,7 @@ let projects = [
         id: 1,
         image: "/images/plumbing.png",
         name: "E-commerce",
-        url: "https://plumbing-products.vercel.app/",
+        url: "https://realdanilo-ecommerce.vercel.app/?searchType=description&searchInput=abs",
         github: "https://github.com/realdanilo/plumbing_products",
         description: "VMTS internal website developed to look up product by SKU or description. Adapted to mock an ecommerce website.",
         stack: ["React", "Hooks", "NextJS", "MongoDb"],
@@ -44,16 +44,16 @@ let projects = [
         main:["passport", "google auth2","dashboards"]
         
     },
-    {
-        id:5,
-        image: "/images/concert.png",
-        name:"Concert",
-        url:"https://danilomera-concert.netlify.app",
-        github:"",
-        description:"HTML CSS mobile friendly band website",
-        stack:["HTML", "CSS"],
-        main:["mobile first","flexbox","queries"]
-    },
+    // {
+    //     id:5,
+    //     image: "/images/concert.png",
+    //     name:"Concert",
+    //     url:"https://danilomera-concert.netlify.app",
+    //     github:"",
+    //     description:"HTML CSS mobile friendly band website",
+    //     stack:["HTML", "CSS"],
+    //     main:["mobile first","flexbox","queries"]
+    // },
     {
         id: 6,
         image: "/images/roofstore.png",
@@ -95,26 +95,35 @@ let projects = [
         stack: ["React", "Hooks"],
         main: ["useReducer", "useContext", "customHooks", "Local Storage"]
     },
-    {
-        id: 10,
-        image: "/images/color.png",
-        name: "Color",
-        url: "https://danilomera-colorapp.netlify.app/",
-        github: "https://github.com/realdanilo/colorapp",
-        description: "Bootcamp project for React. Here I learned to use OOP with modern technology, learned development life cycle methods, and use of MaterialUI components",
-        stack: ["React", "Material UI", "NPM modules"],
-        main: ["OOP", "Routing", "Optimization/Memoization", "Life Cycle", "withStyles"]
-    },
+    // {
+    //     id: 10,
+    //     image: "/images/color.png",
+    //     name: "Color",
+    //     url: "https://danilomera-colorapp.netlify.app/",
+    //     github: "https://github.com/realdanilo/colorapp",
+    //     description: "Bootcamp project for React. Here I learned to use OOP with modern technology, learned development life cycle methods, and use of MaterialUI components",
+    //     stack: ["React", "Material UI", "NPM modules"],
+    //     main: ["OOP", "Routing", "Optimization/Memoization", "Life Cycle", "withStyles"]
+    // },
+    // {
+    //     id:11,
+    //     image:"/images/markdown.png",
+    //     name:"#Markdown App",
+    //     url:"https://danilomera-markdown.netlify.app/",
+    //     github:"https://github.com/realdanilo/markdown-react",
+    //     description:"Quick react application to learn markdown",
+    //     stack:["React", "Third Party Libraries"],
+    //     main:["Hooks","Markdown"]
+    // }
     {
         id:11,
-        image:"/images/markdown.png",
-        name:"#Markdown App",
-        url:"https://danilomera-markdown.netlify.app/",
-        github:"https://github.com/realdanilo/markdown-react",
-        description:"Quick react application to learn markdown",
-        stack:["React", "Third Party Libraries"],
-        main:["Hooks","Markdown"]
-
+        image:"/images/subnetting.png",
+        name:"IPv4 Subnetting (video)",
+        url:"https://www.youtube.com/watch?v=Nl8-lqgyvtY",
+        github:"",
+        description:"Video explaining ipv4 subnetting, finding subnets and host, and binary weight on IP segment -easiest way possible. No cheating!",
+        stack:["Networking", "IP Subnetting", "Infrastructure"],
+        main:["subnetting","binary","segmentation"]
     }
     
 ]
