@@ -2,20 +2,20 @@
 
 let projects = [
     {
-        id: 1,
-        image: "/images/plumbing.png",
-        name: "E-commerce",
-        url: "https://realdanilo-ecommerce.vercel.app/?searchType=description&searchInput=abs",
-        github: "https://github.com/realdanilo/plumbing_products",
-        description: "VMTS internal website developed to look up product by SKU or description. Adapted to mock an ecommerce website.",
-        stack: ["React", "Hooks", "NextJS", "MongoDb"],
-        main: ["useContext", "Ecommerce", "Mobile", "SEO", "Modular Component"]
+        id: 12,
+        image: "/images/SchoolERP.png",
+        name: "School ERP | .NET CORE",
+        url: "https://youtu.be/PGSXHYeVU3g",
+        github: "https://github.com/realdanilo/MySchoolSystem/tree/InstructorStudent_IdentityUser",
+        description: "School ERP system: class enrollment with multiple options, update files to server (rubrics, projects), users with auth, admin priviliges to change passwords and user roles, instructor can grade homework.",
+        stack: ["C#","ASP.NET CORE 3" , "EF", "Identity Framework", "MSSQL"],
+        main: ["Docker", "ASP.NET Core", "Bootstrap", "LINQ", "Authentication", "Authorization"]
         
     },
     {
         id: 2,
         image: "/images/movie.png",
-        name: "Movie Search",
+        name: "Movie Search | Next Js",
         url: "https://danilomera-movie.vercel.app/",
         github: "https://github.com/realdanilo/nextjs-movie",
         description: "Use external API movie databse to find movies by name and id; built with NextJS and modular CSS. SEO performance and UI friendly",
@@ -26,7 +26,7 @@ let projects = [
     {
         id: 3,
         image: "/images/resort.png",
-        name: "Hotel",
+        name: "Hotel | React Js",
         url: "https://danilomera-hotel.netlify.app",
         github: "https://github.com/realdanilo/hotel",
         description: "Content Management System and React. Filter hotels dynamically (in a fast way, no loading!) and finds information about them. Re build OOP project to new hook syntax! Always learning!",
@@ -34,9 +34,20 @@ let projects = [
         main: ["useReducer Async", "CMS", "API"]
     },
     {
+        id: 1,
+        image: "/images/plumbing.png",
+        name: "E-commerce MVP | Next Js",
+        url: "https://realdanilo-ecommerce.vercel.app/?searchType=description&searchInput=abs",
+        github: "https://github.com/realdanilo/plumbing_products",
+        description: "VMTS internal website developed to look up product by SKU or description. Adapted to mock an ecommerce website.",
+        stack: ["React", "Hooks", "NextJS", "MongoDb"],
+        main: ["useContext", "Ecommerce", "Mobile", "SEO", "Modular Component"]
+        
+    },
+    {
         id:4,
         image:"/images/blog.png",
-        name:"Blog",
+        name:"Blog | Node Js",
         url:"https://danilomera-blog.herokuapp.com/blog",
         github:"",
         description:"CRUD RESTful blog application with (google) auth2",
@@ -57,7 +68,7 @@ let projects = [
     {
         id: 6,
         image: "/images/roofstore.png",
-        name: "Roof Store ",
+        name: "Roof Store",
         url: "https://danilomera-roofstore.netlify.app/",
         github: "https://github.com/realdanilo/roofstore",
         description: "From design to live site, using static technology",
@@ -77,7 +88,7 @@ let projects = [
     {
         id: 8,
         image: "/images/yelpcamp.png",
-        name: "Social Media",
+        name: "Social Media | Node Js",
         url: "https://danilocamp.herokuapp.com/",
         github: "https://github.com/realdanilo/yelpcamp",
         description: "I advance my bootcamp project and included extra features that optimizes the website, makes more dynamic, and relates to a real world app. For example you can upload images, create and login a user, admin access, set a map location, and reference likes between posts.",
@@ -88,7 +99,7 @@ let projects = [
     {
         id: 9,
         image: "/images/recipe.png",
-        name: "Recipe App",
+        name: "Recipe App | React Js",
         url: "https://danilomera-recipe.netlify.app/",
         github: "https://github.com/realdanilo/recipeapp",
         description: "Use of modern React, routing, and context to build an amazing recipe app. Super optimized!",
